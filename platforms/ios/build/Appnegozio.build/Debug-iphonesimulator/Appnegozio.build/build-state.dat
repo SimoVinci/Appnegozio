@@ -1,0 +1,608 @@
+TAppnegozio
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Info.plist Appnegozio/Appnegozio-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Appnegozio/config.xml build/Appnegozio.app/config.xml
+cCpResource Appnegozio/Resources/icons/icon-72.png build/Appnegozio.app/icon-72.png
+cCpResource Appnegozio/Resources/icons/icon.png build/Appnegozio.app/icon.png
+cCpResource Appnegozio/Resources/icons/icon@2x.png build/Appnegozio.app/icon@2x.png
+cCopyStringsFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/en.lproj/Localizable.strings Appnegozio/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/es.lproj/Localizable.strings Appnegozio/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.xib
+cCopyStringsFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/de.lproj/Localizable.strings Appnegozio/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/se.lproj/Localizable.strings Appnegozio/Resources/se.lproj/Localizable.strings
+cCpResource Appnegozio/Resources/splash/Default-Landscape@2x~ipad.png build/Appnegozio.app/Default-Landscape@2x~ipad.png
+cCpResource Appnegozio/Resources/splash/Default-Landscape~ipad.png build/Appnegozio.app/Default-Landscape~ipad.png
+cCpResource Appnegozio/Resources/splash/Default-Portrait@2x~ipad.png build/Appnegozio.app/Default-Portrait@2x~ipad.png
+cCpResource Appnegozio/Resources/splash/Default-Portrait~ipad.png build/Appnegozio.app/Default-Portrait~ipad.png
+cCpResource Appnegozio/Resources/splash/Default@2x~iphone.png build/Appnegozio.app/Default@2x~iphone.png
+cCpResource Appnegozio/Resources/splash/Default~iphone.png build/Appnegozio.app/Default~iphone.png
+cCpResource Appnegozio/Resources/splash/Default-568h@2x~iphone.png build/Appnegozio.app/Default-568h@2x~iphone.png
+cCpResource Appnegozio/Resources/icons/icon-72@2x.png build/Appnegozio.app/icon-72@2x.png
+cProcessPCH /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch.pth Appnegozio/Appnegozio-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/main.o /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/AppDelegate.o /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/MainViewController.o /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio normal i386
+cGenerateDSYMFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app.dSYM /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio
+cTouch /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051DE79110000000000000110
+t1373534481
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005113B60E00000000001EB540
+t1360246286
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005113B60D00000000000C1030
+t1360246285
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005113B60D0000000000193640
+t1360246285
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005113B60E00000000000226E0
+t1360246286
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005113B60E00000000003D4DF0
+t1360246286
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005113B60F0000000000215DB0
+t1360246287
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005113B60F0000000000228FE0
+t1360246287
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005113B60F000000000009C590
+t1360246287
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005113B60F0000000000085620
+t1360246287
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005113B61200000000003DDFA0
+t1360246290
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c000000005113B61500000000002CFBE0
+t1360246293
+s2948064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005113B61600000000002DBA50
+t1360246294
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005113B61700000000000BCC20
+t1360246295
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000005113B6170000000000030EB0
+t1360246295
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005113B61700000000001D5750
+t1360246295
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005113B618000000000006CC50
+t1360246296
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005113B61C0000000000AB6230
+t1360246300
+s11231792
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Appnegozio-Prefix.pch
+c0000000052443AA900000000000003C5
+t1380203177
+s965
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/AppDelegate.m
+c0000000052443AA900000000000013AB
+t1380203177
+s5035
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.m
+c0000000052443AA9000000000000126B
+t1380203177
+s4715
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.xib
+c0000000052443AA80000000000001759
+t1380203176
+s5977
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/de.lproj/Localizable.strings
+c0000000052443AA800000000000004BF
+t1380203176
+s1215
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/en.lproj/Localizable.strings
+c0000000052443AA800000000000004AA
+t1380203176
+s1194
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/es.lproj/Localizable.strings
+c0000000052443AA800000000000004B7
+t1380203176
+s1207
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/icons/icon-72.png
+c0000000052443AA80000000000001350
+t1380203176
+s4944
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/icons/icon-72@2x.png
+c0000000052443AA80000000000002DBA
+t1380203176
+s11706
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/icons/icon.png
+c0000000052443AA80000000000000F3E
+t1380203176
+s3902
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/icons/icon@2x.png
+c0000000052443AA80000000000001EBD
+t1380203176
+s7869
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/se.lproj/Localizable.strings
+c0000000052443AA800000000000004AB
+t1380203176
+s1195
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-568h@2x~iphone.png
+c0000000052443AA800000000000085B1
+t1380203176
+s34225
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052443AA80000000000012DF4
+t1380203176
+s77300
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-Landscape~ipad.png
+c0000000052443AA80000000000008877
+t1380203176
+s34935
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052443AA80000000000012B02
+t1380203176
+s76546
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-Portrait~ipad.png
+c0000000052443AA800000000000085E6
+t1380203176
+s34278
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default@2x~iphone.png
+c0000000052443AA80000000000007323
+t1380203176
+s29475
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default~iphone.png
+c0000000052443AA8000000000000289A
+t1380203176
+s10394
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/config.xml
+c0000000052443AAA0000000000000893
+t1380203178
+s2195
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/main.m
+c0000000052443AA9000000000000045C
+t1380203177
+s1116
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app.dSYM
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default~iphone.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Info.plist
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/MainViewController.nib
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/PkgInfo
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/config.xml
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/icon-72.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/icon-72@2x.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/icon.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/icon@2x.png
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/Appnegozio.LinkFileList
+c0000000052443AB500000000000001B6
+t1380203189
+s438
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Script-304B58A110DAC018002A0835.sh
+c0000000052443AB5000000000000051A
+t1380203189
+s1306
+
+N/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/libCordova.a
+c0000000052443AB5000000000011A6F0
+t1380203189
+s1156848
+
+N/var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch.pth
+t1380187915
+s4680900
+
+NAppnegozio/Appnegozio-Info.plist
+c0000000052443AAA0000000000000741
+t1380203178
+s1857
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf54c6f3572f4b741^dcb7763572f4b741^---0#1#0#--18"Check dependencies36"CC109BEB-6F03-4CF3-8F77-2B9258232F34-
+
+CCompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/AppDelegate.o /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401895995.910182
+e401895996.045500
+r1
+xCompileC
+xbuild/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/AppDelegate.o
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/AppDelegate.m1b2fe93b72f4b741^30bb0b3c72f4b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/AppDelegate.m0000000000000000^3616"CompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/AppDelegate.o Appnegozio/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-generated-files.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-own-target-headers.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-all-target-headers.hmap -iquote /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-project-headers.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/usr/local/lib/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/UninstalledProducts/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources/i386 -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources -F/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -include /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch -MMD -MT dependencies -MF /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/AppDelegate.dia -c /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/AppDelegate.m -o /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/AppDelegate.o36"556EB659-E517-4DC1-91B3-B1C7D19C0060-
+
+CCompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/MainViewController.o /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401895995.952237
+e401895996.071531
+r1
+xCompileC
+xbuild/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/MainViewController.o
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.me129f43b72f4b741^444f123c72f4b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.m0000000000000000^3658"CompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/MainViewController.o Appnegozio/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-generated-files.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-own-target-headers.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-all-target-headers.hmap -iquote /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-project-headers.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/usr/local/lib/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/UninstalledProducts/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources/i386 -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources -F/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -include /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch -MMD -MT dependencies -MF /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/MainViewController.dia -c /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.m -o /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/MainViewController.o36"2892EC81-2511-4ABA-AB89-094AD382001F-
+
+CCompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/main.o /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401895995.909684
+e401895995.950867
+r1
+xCompileC
+xbuild/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/main.o
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/main.mf510e93b72f4b741^cb80f33b72f4b741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/main.m0000000000000000^3558"CompileC build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/main.o Appnegozio/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-generated-files.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-own-target-headers.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-all-target-headers.hmap -iquote /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-project-headers.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/usr/local/lib/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/UninstalledProducts/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources/i386 -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources -F/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -include /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch -MMD -MT dependencies -MF /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/main.dia -c /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/main.m -o /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/main.o36"9453857C-D1B5-488F-B05F-86DB58B997FA-
+
+CCompileXIB /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.xib
+s401895990.029208
+e401895995.259361
+r1
+xCompileXIB
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.xib
+o2013-09-26 15:46:34.377 Interface Builder Cocoa Touch Tool[4110:14603] CFPreferences: user home directory at file://localhost/Users/sviluppo/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compiling /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.xib5da5073672f4b741^ec85423b72f4b741^-242"2013-09-26 15:46:34.377 Interface Builder Cocoa Touch Tool[4110:14603] CFPreferences: user home directory at file://localhost/Users/sviluppo/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.xib0000000000000000^963"CompileXIB Appnegozio/Classes/MainViewController.xib    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/MainViewController.nib /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"72F6FD3E-D650-48C6-B6FA-DDA03F233254-
+
+CCopyStringsFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/de.lproj/Localizable.strings Appnegozio/Resources/de.lproj/Localizable.strings
+s401895990.032846
+e401895990.064923
+r1
+xCopyStringsFile
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/de.lproj/Localizable.strings
+xAppnegozio/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Appnegozio/Resources/de.lproj/Localizable.stringsd289083672f4b741^2c80113672f4b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/de.lproj/Localizable.strings0000000000000000^619"CopyStringsFile build/Appnegozio.app/de.lproj/Localizable.strings Appnegozio/Resources/de.lproj/Localizable.strings    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/de.lproj -- Appnegozio/Resources/de.lproj/Localizable.strings36"AA9F11DF-555B-4D7B-B8C4-E5C64F6A4395-
+
+CCopyStringsFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/en.lproj/Localizable.strings Appnegozio/Resources/en.lproj/Localizable.strings
+s401895990.019826
+e401895990.026178
+r1
+xCopyStringsFile
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/en.lproj/Localizable.strings
+xAppnegozio/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Appnegozio/Resources/en.lproj/Localizable.strings6341053672f4b741^85b4063672f4b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/en.lproj/Localizable.strings0000000000000000^619"CopyStringsFile build/Appnegozio.app/en.lproj/Localizable.strings Appnegozio/Resources/en.lproj/Localizable.strings    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/en.lproj -- Appnegozio/Resources/en.lproj/Localizable.strings36"3B45DD19-6A6D-44FD-A992-69E2CA816F69-
+
+CCopyStringsFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/es.lproj/Localizable.strings Appnegozio/Resources/es.lproj/Localizable.strings
+s401895990.025247
+e401895990.031296
+r1
+xCopyStringsFile
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/es.lproj/Localizable.strings
+xAppnegozio/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Appnegozio/Resources/es.lproj/Localizable.strings2997063672f4b741^a8fc073672f4b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/es.lproj/Localizable.strings0000000000000000^619"CopyStringsFile build/Appnegozio.app/es.lproj/Localizable.strings Appnegozio/Resources/es.lproj/Localizable.strings    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/es.lproj -- Appnegozio/Resources/es.lproj/Localizable.strings36"7122FAA3-A910-4DB2-872C-C4DD5B580A35-
+
+CCopyStringsFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/se.lproj/Localizable.strings Appnegozio/Resources/se.lproj/Localizable.strings
+s401895990.066349
+e401895990.072475
+r1
+xCopyStringsFile
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/se.lproj/Localizable.strings
+xAppnegozio/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Appnegozio/Resources/se.lproj/Localizable.strings8f1c113672f4b741^39d1123672f4b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/se.lproj/Localizable.strings0000000000000000^619"CopyStringsFile build/Appnegozio.app/se.lproj/Localizable.strings Appnegozio/Resources/se.lproj/Localizable.strings    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/se.lproj -- Appnegozio/Resources/se.lproj/Localizable.strings36"42C1CB4E-392D-4AC4-9089-317103852707-
+
+CCpResource Appnegozio/Resources/icons/icon-72.png build/Appnegozio.app/icon-72.png
+s401895990.008920
+e401895990.013826
+r1
+xCpResource
+xAppnegozio/Resources/icons/icon-72.png
+xbuild/Appnegozio.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/Appnegozio.app/icon-72.png4e64023672f4b741^e38a033672f4b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/icon-72.png000000000080d041^635"CpResource Appnegozio/Resources/icons/icon-72.png build/Appnegozio.app/icon-72.png    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/icons/icon-72.png /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"6CB4F35A-1C3A-4E08-A7B9-0637CE7A166C-
+
+CCpResource Appnegozio/Resources/icons/icon-72@2x.png build/Appnegozio.app/icon-72@2x.png
+s401895990.147121
+e401895990.150628
+r1
+xCpResource
+xAppnegozio/Resources/icons/icon-72@2x.png
+xbuild/Appnegozio.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/Appnegozio.app/icon-72@2x.png4fc9253672f4b741^3ca2263672f4b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/icon-72@2x.png000000000080d041^650"CpResource "Appnegozio/Resources/icons/icon-72@2x.png" "build/Appnegozio.app/icon-72@2x.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/icons/icon-72@2x.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"765E96AC-E284-452C-AD66-9A63AF97128A-
+
+CCpResource Appnegozio/Resources/icons/icon.png build/Appnegozio.app/icon.png
+s401895990.014714
+e401895990.018421
+r1
+xCpResource
+xAppnegozio/Resources/icons/icon.png
+xbuild/Appnegozio.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/Appnegozio.app/icon.pnga8e5033672f4b741^4eb7043672f4b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/icon.png000000000080d041^626"CpResource Appnegozio/Resources/icons/icon.png build/Appnegozio.app/icon.png    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/icons/icon.png /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"8E9A4994-8D88-48D3-B46D-E9A904F54537-
+
+CCpResource Appnegozio/Resources/icons/icon@2x.png build/Appnegozio.app/icon@2x.png
+s401895990.015361
+e401895990.021206
+r1
+xCpResource
+xAppnegozio/Resources/icons/icon@2x.png
+xbuild/Appnegozio.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/Appnegozio.app/icon@2x.png6b0e043672f4b741^de91053672f4b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/icon@2x.png000000000080d041^641"CpResource "Appnegozio/Resources/icons/icon@2x.png" "build/Appnegozio.app/icon@2x.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/icons/icon@2x.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"EDA3B169-3137-44C0-8F4B-76438534E641-
+
+CCpResource Appnegozio/Resources/splash/Default-568h@2x~iphone.png build/Appnegozio.app/Default-568h@2x~iphone.png
+s401895990.141263
+e401895990.145733
+r1
+xCpResource
+xAppnegozio/Resources/splash/Default-568h@2x~iphone.png
+xbuild/Appnegozio.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Appnegozio.app/Default-568h@2x~iphone.png9949243672f4b741^a88e253672f4b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-568h@2x~iphone.png000000000080d041^688"CpResource "Appnegozio/Resources/splash/Default-568h@2x~iphone.png" "build/Appnegozio.app/Default-568h@2x~iphone.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-568h@2x~iphone.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"700FD5F9-CFAB-411B-98A0-7BA6689FDD3B-
+
+CCpResource Appnegozio/Resources/splash/Default-Landscape@2x~ipad.png build/Appnegozio.app/Default-Landscape@2x~ipad.png
+s401895990.073838
+e401895990.108240
+r1
+xCpResource
+xAppnegozio/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/Appnegozio.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Appnegozio.app/Default-Landscape@2x~ipad.png6c07133672f4b741^65c61b3672f4b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-Landscape@2x~ipad.png000000000080d041^697"CpResource "Appnegozio/Resources/splash/Default-Landscape@2x~ipad.png" "build/Appnegozio.app/Default-Landscape@2x~ipad.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-Landscape@2x~ipad.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"74D7AA5E-77FC-4B63-BA7A-A17C98019344-
+
+CCpResource Appnegozio/Resources/splash/Default-Landscape~ipad.png build/Appnegozio.app/Default-Landscape~ipad.png
+s401895990.109696
+e401895990.114316
+r1
+xCpResource
+xAppnegozio/Resources/splash/Default-Landscape~ipad.png
+xbuild/Appnegozio.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Appnegozio.app/Default-Landscape~ipad.pngb9511c3672f4b741^adde1d3672f4b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-Landscape~ipad.png000000000080d041^688"CpResource "Appnegozio/Resources/splash/Default-Landscape~ipad.png" "build/Appnegozio.app/Default-Landscape~ipad.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-Landscape~ipad.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"57CF49E3-D0A7-4044-AF89-76CE3B1640E5-
+
+CCpResource Appnegozio/Resources/splash/Default-Portrait@2x~ipad.png build/Appnegozio.app/Default-Portrait@2x~ipad.png
+s401895990.115778
+e401895990.120215
+r1
+xCpResource
+xAppnegozio/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/Appnegozio.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Appnegozio.app/Default-Portrait@2x~ipad.png7dca1d3672f4b741^b038203672f4b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-Portrait@2x~ipad.png000000000080d041^694"CpResource "Appnegozio/Resources/splash/Default-Portrait@2x~ipad.png" "build/Appnegozio.app/Default-Portrait@2x~ipad.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-Portrait@2x~ipad.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"01319CFC-DF3F-4D12-8A96-E5BF612184B8-
+
+CCpResource Appnegozio/Resources/splash/Default-Portrait~ipad.png build/Appnegozio.app/Default-Portrait~ipad.png
+s401895990.121639
+e401895990.125016
+r1
+xCpResource
+xAppnegozio/Resources/splash/Default-Portrait~ipad.png
+xbuild/Appnegozio.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Appnegozio.app/Default-Portrait~ipad.pngcc461f3672f4b741^853e203672f4b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default-Portrait~ipad.png000000000080d041^685"CpResource "Appnegozio/Resources/splash/Default-Portrait~ipad.png" "build/Appnegozio.app/Default-Portrait~ipad.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default-Portrait~ipad.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"7B7482D5-6AE5-4C9F-AF8F-392621085979-
+
+CCpResource Appnegozio/Resources/splash/Default@2x~iphone.png build/Appnegozio.app/Default@2x~iphone.png
+s401895990.126464
+e401895990.129685
+r1
+xCpResource
+xAppnegozio/Resources/splash/Default@2x~iphone.png
+xbuild/Appnegozio.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Appnegozio.app/Default@2x~iphone.pngd481203672f4b741^8d47213672f4b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default@2x~iphone.png000000000080d041^673"CpResource "Appnegozio/Resources/splash/Default@2x~iphone.png" "build/Appnegozio.app/Default@2x~iphone.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default@2x~iphone.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"45C7F73E-3116-426A-A2AB-A1BB0458E63F-
+
+CCpResource Appnegozio/Resources/splash/Default~iphone.png build/Appnegozio.app/Default~iphone.png
+s401895990.134714
+e401895990.139823
+r1
+xCpResource
+xAppnegozio/Resources/splash/Default~iphone.png
+xbuild/Appnegozio.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/Appnegozio.app/Default~iphone.png88a0223672f4b741^d80c243672f4b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Default~iphone.png000000000080d041^664"CpResource "Appnegozio/Resources/splash/Default~iphone.png" "build/Appnegozio.app/Default~iphone.png"    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Resources/splash/Default~iphone.png" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"81A1D0EE-AC3C-4DBB-96D9-B4E40CDF14E0-
+
+CCpResource Appnegozio/config.xml build/Appnegozio.app/config.xml
+s401895990.008193
+e401895990.013349
+r1
+xCpResource
+xAppnegozio/config.xml
+xbuild/Appnegozio.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/Appnegozio.app/config.xmlef37023672f4b741^7f6b033672f4b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/config.xml000000000080d041^600"CpResource Appnegozio/config.xml build/Appnegozio.app/config.xml    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/config.xml /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"62FC7EE8-0FD5-4219-A439-4EDB83B8FB69-
+
+CGenerateDSYMFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app.dSYM /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio
+s401895996.434371
+e401895996.599607
+r1
+xGenerateDSYMFile
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app.dSYM
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generate /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app.dSYM50536f3c72f4b741^957f993c72f4b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app.dSYM000000000080d041^616"GenerateDSYMFile build/Appnegozio.app.dSYM build/Appnegozio.app/Appnegozio    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio -o /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app.dSYM36"9A9674B4-1A6E-44B5-A51C-90BBA3108D42-
+
+CLd /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio normal i386
+s401895996.078370
+e401895996.427401
+r1
+xLd
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio4a40143c72f4b741^f8706d3c72f4b741^---0#0#0#--1810"Ld build/Appnegozio.app/Appnegozio normal i386    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -F/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -filelist /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/Appnegozio.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -o /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Appnegozio36"2A28EA0B-9D8B-4154-89B8-887B59455A8C-
+
+CPhaseScriptExecution "Copy www directory" /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Script-304B58A110DAC018002A0835.sh
+s401895989.486267
+e401895989.998054
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.473s
+ouser	0m0.093s
+osys	0m0.242s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'f0c37d3572f4b741^209cff3572f4b741^-42"real	0m0.473suser	0m0.093ssys	0m0.242s3(21%IDEActivityLogMessage2@14"real	0m0.473s-401895989#1#14#-0#-----2@14"user	0m0.093s-401895989#15#14#-0#-----2@13"sys	0m0.242s-401895989#29#13#-0#-----0#0#0#--20906"PhaseScriptExecution "Copy www directory" build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Script-304B58A110DAC018002A0835.sh    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER sviluppo    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv BUILD_ROOT /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv CACHE_ROOT /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Appnegozio.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Appnegozio.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Appnegozio.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Appnegozio.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Appnegozio.app/Executables    setenv EXECUTABLE_FOLDER_PATH Appnegozio.app    setenv EXECUTABLE_NAME Appnegozio    setenv EXECUTABLE_PATH Appnegozio.app/Appnegozio    setenv FILE_LIST /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Appnegozio.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/sviluppo/Projects/Appnegozio/platforms/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Appnegozio.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Appnegozio/Appnegozio-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/include\" \"/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/usr/local/lib/include\" \"/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/UninstalledProducts/include\" \"/Users/sviluppo/Projects/Appnegozio/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Appnegozio/Appnegozio-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Appnegozio.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Appnegozio.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Appnegozio.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER sviluppo    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Appnegozio.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Appnegozio.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/sviluppo/Projects/Appnegozio/platforms/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal/i386/Appnegozio.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Appnegozio.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Objects-normal    setenv OBJROOT /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Appnegozio.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/PkgInfo    setenv PKGINFO_PATH Appnegozio.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Appnegozio.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Appnegozio.app/PrivateHeaders    setenv PRODUCT_NAME Appnegozio    setenv PRODUCT_SETTINGS_PATH /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Appnegozio-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Appnegozio    setenv PROJECT_DERIVED_FILE_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/DerivedSources    setenv PROJECT_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PROJECT_FILE_PATH /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio.xcodeproj    setenv PROJECT_NAME Appnegozio    setenv PROJECT_TEMP_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build    setenv PROJECT_TEMP_ROOT /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH Appnegozio.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/sviluppo/Projects/Appnegozio/platforms/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Appnegozio.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Appnegozio.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Appnegozio.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv SRCROOT /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Appnegozio    setenv TARGET_BUILD_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv TARGET_NAME Appnegozio    setenv TARGET_TEMP_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build    setenv TEMP_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build    setenv TEMP_FILES_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build    setenv TEMP_FILE_DIR /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build    setenv TEMP_ROOT /Users/sviluppo/Projects/Appnegozio/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Appnegozio.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER sviluppo    setenv USER_APPS_DIR /Users/sviluppo/Applications    setenv USER_LIBRARY_DIR /Users/sviluppo/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Appnegozio.app/version.plist    setenv VERSION_INFO_BUILDER sviluppo    setenv VERSION_INFO_FILE Appnegozio_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Appnegozio  PROJECT:Appnegozio-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Appnegozio.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Script-304B58A110DAC018002A0835.sh36"9D74C39F-1A9A-4BBB-9D2D-186B21957106-
+
+CProcessInfoPlistFile /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Info.plist Appnegozio/Appnegozio-Info.plist
+s401895989.472069
+e401895989.477992
+r1
+xProcessInfoPlistFile
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Info.plist
+xAppnegozio/Appnegozio-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process Appnegozio/Appnegozio-Info.plistd6fc783572f4b741^465e7a3572f4b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Appnegozio-Info.plist0000000000000000^666"ProcessInfoPlistFile build/Appnegozio.app/Info.plist Appnegozio/Appnegozio-Info.plist    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-infoPlistUtility Appnegozio/Appnegozio-Info.plist -genpkginfo /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app/Info.plist36"60210280-C1FC-47F3-9054-06EC105CAE1C-
+
+CProcessPCH /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch.pth Appnegozio/Appnegozio-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401895995.268258
+e401895995.903196
+r1
+xProcessPCH
+x/var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch.pth
+xAppnegozio/Appnegozio-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Appnegozio/Appnegozio-Prefix.pch84814f3b72f4b741^5936e73b72f4b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Appnegozio-Prefix.pch0000000000000000^3583"ProcessPCH /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch.pth Appnegozio/Appnegozio-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-generated-files.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-own-target-headers.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-all-target-headers.hmap -iquote /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/Appnegozio-project-headers.hmap -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/usr/local/lib/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/UninstalledProducts/include -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources/i386 -I/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.build/Debug-iphonesimulator/Appnegozio.build/DerivedSources -F/Users/sviluppo/Projects/Appnegozio/platforms/ios/build --serialize-diagnostics /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch.dia -c /Users/sviluppo/Projects/Appnegozio/platforms/ios/Appnegozio/Appnegozio-Prefix.pch -o /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/gg/n5zkvxy1395b7ff93nr2d3680000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Appnegozio-Prefix-goicsqzeptowiuahqqzalwkmtctw/Appnegozio-Prefix.pch.d36"89AAF511-E1F5-48B2-AF16-C90C4D58A247-
+
+CTouch /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app
+s401895996.607895
+e401895996.615660
+r1
+xTouch
+x/Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.appbebd9b3c72f4b741^179c9d3c72f4b741^---0#0#0#--400"Touch build/Appnegozio.app    cd /Users/sviluppo/Projects/Appnegozio/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/sviluppo/Projects/Appnegozio/platforms/ios/build/Appnegozio.app36"3F5C7123-88AC-487F-A3ED-AE8527673434-
+
